@@ -12,7 +12,7 @@ namespace MArchiveBatchTool.Models
         [JsonProperty("version")]
         public float Version { get; set; }
         [JsonProperty("file_info")]
-        public Dictionary<string, List<int>> FileInfo { get; set; }
+        public Dictionary<string, List<long>> FileInfo { get; set; }
         [JsonProperty("expire_suffix_list")]
         public List<string> ExpireSuffixList { get; set; }
     }
